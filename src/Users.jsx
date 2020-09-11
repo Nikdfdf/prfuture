@@ -3,7 +3,7 @@ import React from 'react';
 
 function Users ({ persons }) {
 
-    const sortColumns = (column) => {
+    const sortColumnss = (column) => {
 
        
 
@@ -14,7 +14,7 @@ function Users ({ persons }) {
         <table>
             <thead>
                 <tr>
-                    <th onClick={ () => { sortColumns('id')} }>ID</th>
+                    <th onClick={ () => { sortColumnss('id')} }>ID</th>
                     <th onClick={ () => { sortColumns('firstName')} }>FirstName</th>
                 </tr>
             </thead>
